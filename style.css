@@ -1,0 +1,42 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+h1 {
+font-size: 50px;
+
+}
+.tho{
+
+    color: goldenrod;
+}
+
+section{
+    display: flex;
+}
+.ok{
+    width: 50%;
+    padding-left: 2%;
+}
+.ok img{
+
+    width: 80%;
+     
+   
+}
+.button{
+text-decoration: none;
+background-image: linear-gradient(orange,red);
+padding: 10px 40px;
+color: aliceblue;
+font-weight: 800;
+border-radius: 5%;
+
+}
+.top-banner{
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
