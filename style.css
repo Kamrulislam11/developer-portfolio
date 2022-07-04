@@ -8,12 +8,15 @@ h1 {
 font-size: 50px;
 
 }
+h2{
+    font-size: 20px;
+}
 .tho{
 
     color: goldenrod;
 }
 
-section{
+ .flexible-continar  {
     display: flex;
     margin-bottom: 140px;
 }
@@ -46,4 +49,35 @@ border-radius: 5%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+
+.expernience{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+
+.good{
+ width: 40%;
+ margin-left: 5%;
+margin-right: 5%;
+ padding: 20px;
+ border-radius: 5%;
+box-shadow: 10px 10px 30px gray;
+
+
+}
+#no{
+    border-left: 7px solid rgb(85, 85, 226);
+}
+#na{
+    border-left: 7px solid red;
+}
+footer p{
+    text-align: center;
 }
